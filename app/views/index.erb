@@ -11,6 +11,13 @@
 
     <title>Freelancer - Start Bootstrap Theme</title>
 
+    <!--
+    normalize.css removes cross-browser differences in defaults, e.g.,
+    differences in how form elements appear between Firefox and IE
+    See: http://necolas.github.com/normalize.css/
+    -->
+    <link rel="stylesheet" href="/stylesheets/normalize.css">
+
     <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     <link href="/stylesheets/bootstrap.min.css" rel="stylesheet">
 
@@ -18,7 +25,7 @@
     <link href="/stylesheets/freelancer.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="/stylesheets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
@@ -44,7 +51,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#page-top">Start Bootstrap</a>
+                <a class="navbar-brand" href="#page-top">Petra Wright</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -76,9 +83,9 @@
                 <div class="col-lg-12">
                     <img class="img-responsive" src="img/profile.png" alt="">
                     <div class="intro-text">
-                        <span class="name">Start Bootstrap</span>
+                        <span class="name">Petra Wright</span>
                         <hr class="star-light">
-                        <span class="skills">Web Developer - Graphic Artist - User Experience Designer</span>
+                        <span class="skills">Embroiderer - Marathoner - Ninja</span>
                     </div>
                 </div>
             </div>
@@ -125,7 +132,7 @@
                         <img src="img/portfolio/circus.png" class="img-responsive" alt="">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
+                <!-- <div class="col-sm-4 portfolio-item">
                     <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -134,8 +141,8 @@
                         </div>
                         <img src="img/portfolio/game.png" class="img-responsive" alt="">
                     </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
+                </div> -->
+                <!-- <div class="col-sm-4 portfolio-item">
                     <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -144,8 +151,8 @@
                         </div>
                         <img src="img/portfolio/safe.png" class="img-responsive" alt="">
                     </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
+                </div> -->
+                <!-- <div class="col-sm-4 portfolio-item">
                     <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -154,7 +161,7 @@
                         </div>
                         <img src="img/portfolio/submarine.png" class="img-responsive" alt="">
                     </a>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
@@ -170,16 +177,16 @@
             </div>
             <div class="row">
                 <div class="col-lg-4 col-lg-offset-2">
-                    <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam metus erat, dictum eu augue finibus, convallis ornare orci. Aliquam sem dolor, sodales quis aliquet nec, consequat non leo. Donec lobortis auctor viverra. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer semper ligula id sem aliquet, eget tincidunt leo tristique.</p>
                 </div>
                 <div class="col-lg-4">
-                    <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+                    <p>Nulla eget convallis dolor. Praesent finibus tellus et tempor laoreet. Aenean lobortis dui dui, in placerat neque pharetra nec. Ut ac ante lacinia, euismod lacus ac, hendrerit quam. Mauris lobortis quam non volutpat pellentesque. Maecenas bibendum maximus est, in aliquam metus sodales id. Nullam placerat dictum hendrerit.</p>
                 </div>
-                <div class="col-lg-8 col-lg-offset-2 text-center">
+                <!-- <div class="col-lg-8 col-lg-offset-2 text-center">
                     <a href="#" class="btn btn-lg btn-outline">
                         <i class="fa fa-download"></i> Download Theme
                     </a>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
@@ -189,15 +196,21 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Contact Me</h2>
+                    <h2>Contact</h2>
                     <hr class="star-primary">
+                </div>
+                <div class="col-md-12 text-center">
+                    <h3>Petra Wright</h3>
+                    <p>604-222-2222</p>
+                    <p>p.wright@wizard.com</p>
+                    <p>Vancouver, BC</p>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                     <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
                     <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
-                    <form name="sentMessage" id="contactForm" novalidate>
+                   <!--  <form name="sentMessage" id="contactForm" novalidate>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>Name</label>
@@ -233,7 +246,7 @@
                                 <button type="submit" class="btn btn-success btn-lg">Send</button>
                             </div>
                         </div>
-                    </form>
+                    </form> -->
                 </div>
             </div>
         </div>
@@ -244,11 +257,12 @@
         <div class="footer-above">
             <div class="container">
                 <div class="row">
-                    <div class="footer-col col-md-4">
-                        <h3>Location</h3>
-                        <p>3481 Melrose Place<br>Beverly Hills, CA 90210</p>
+                    <div class="footer-col col-md-12">
+                        <h3>Previous Contracts</h3>
+                        <p>Steve from Pielberg</p>
+                        <p>"Warmake" the Game</p>
                     </div>
-                    <div class="footer-col col-md-4">
+                    <!-- <div class="footer-col col-md-4">
                         <h3>Around the Web</h3>
                         <ul class="list-inline">
                             <li>
@@ -267,11 +281,11 @@
                                 <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
                             </li>
                         </ul>
-                    </div>
-                    <div class="footer-col col-md-4">
+                    </div> -->
+                    <!-- <div class="footer-col col-md-4">
                         <h3>About Freelancer</h3>
                         <p>Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -309,18 +323,18 @@
                             <h2>Project Title</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/cabin.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <p>The above is a rendering of a fantastic cabin in the heart of Birch Bay. Working alongside Len was a challenging but rewarding opportunity.</p>
                             <ul class="list-inline item-details">
                                 <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                    <strong><a href="http://startbootstrap.com">Len</a>
                                     </strong>
                                 </li>
                                 <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    <strong><a href="http://startbootstrap.com">January 2010</a>
                                     </strong>
                                 </li>
                                 <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    <strong><a href="http://startbootstrap.com">Hardhat Contruction</a>
                                     </strong>
                                 </li>
                             </ul>
@@ -346,18 +360,18 @@
                             <h2>Project Title</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/cake.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <p>For this project I worked closely with Natasha to produce a cake that was not only beautiful, but delicious as well. An example of form meeting function, my cakery skills are off the charts.</p>
                             <ul class="list-inline item-details">
                                 <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                    <strong><a href="http://startbootstrap.com">Natasha</a>
                                     </strong>
                                 </li>
                                 <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    <strong><a href="http://startbootstrap.com">December 2013</a>
                                     </strong>
                                 </li>
                                 <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    <strong><a href="http://startbootstrap.com">Cake Extravaganza</a>
                                     </strong>
                                 </li>
                             </ul>
@@ -383,18 +397,18 @@
                             <h2>Project Title</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/circus.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <p>The only picture I have left from my time when I ran away and joined the circus. A fantastically challenging yet rewarding time of my life, I specialized in lion taming while on tightrope.</p>
                             <ul class="list-inline item-details">
                                 <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                    <strong><a href="http://startbootstrap.com">Vorsak Brothers</a>
                                     </strong>
                                 </li>
                                 <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    <strong><a href="http://startbootstrap.com">July 1999</a>
                                     </strong>
                                 </li>
                                 <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    <strong><a href="http://startbootstrap.com">Lion Taming/Tight Rope</a>
                                     </strong>
                                 </li>
                             </ul>
@@ -405,7 +419,7 @@
             </div>
         </div>
     </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -441,8 +455,8 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+    </div> -->
+    <!-- <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -478,8 +492,8 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+    </div> -->
+    <!-- <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -515,7 +529,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!-- jQuery -->
     <script src="/javascript/jquery.js"></script>
